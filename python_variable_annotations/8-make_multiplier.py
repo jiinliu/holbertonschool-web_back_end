@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-This function returns another function that multiplies a float by the given multiplier.
+This function returns another function that multiplies a float 
+by the given multiplier.
 """
 from typing import Callable
 
