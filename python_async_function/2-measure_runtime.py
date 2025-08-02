@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-#!/usr/bin/env python3
 """
 Module to measure average runtime of wait_n coroutine.
 """
+
 
 import time
 import asyncio
