@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-This module provides a coroutine to asynchronously collect 10 
+This module provides a coroutine to asynchronously collect 10
 random numbers into a list.
 """
 from typing import List
