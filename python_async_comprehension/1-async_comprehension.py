@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
-"""This module provides a coroutine to asynchronously collect 10 random numbers into a list."""
-
+"""
+This module provides a coroutine to asynchronously collect 10 
+random numbers into a list.
+"""
 from typing import List
 
 async_generator = __import__('0-async_generator').async_generator
