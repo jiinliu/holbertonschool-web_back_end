@@ -53,7 +53,6 @@ class Server:
 
         indexed = self.indexed_dataset()
 
-
         if index is None:
             index = 0
         assert isinstance(index, int)
@@ -65,14 +64,13 @@ class Server:
 
         max_key = max(indexed.keys()) if indexed else -1
 
-
         while len(data) < page_size and current <= max_key:
             if current in indexed:
                 data.append(indexed[current])
             current += 1
 
         next_index = current if current <= max_key else None
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+        
         return {
             "index": index,
             "data": data,
