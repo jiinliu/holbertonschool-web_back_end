@@ -70,7 +70,7 @@ class Server:
             current += 1
 
         next_index = current if current <= max_key else None
-        
+
         return {
             "index": index,
             "data": data,
