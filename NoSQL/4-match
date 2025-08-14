@@ -1,2 +1,2 @@
-// 4. All matches
+// All matches
 printjson(db.school.find({ name: "Holberton school" }).toArray());

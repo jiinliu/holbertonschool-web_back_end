@@ -1,2 +1,2 @@
-// 5. Count
+// Count
 print(db.school.countDocuments({}));

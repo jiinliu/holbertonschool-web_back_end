@@ -1,2 +1,2 @@
-// 3. All documents
+// All documents
 printjson(db.school.find().toArray());
