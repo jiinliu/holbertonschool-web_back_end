@@ -1,6 +1,6 @@
 // 9-hoisting.js
 
-class HolbertonClass {
+export class HolbertonClass {
   constructor(year, location) {
     this._year = year;
     this._location = location;
@@ -9,7 +9,7 @@ class HolbertonClass {
   get location() { return this._location; }
 }
 
-class StudentHolberton {
+export class StudentHolberton {
   constructor(firstName, lastName, holbertonClass) {
     this._firstName = firstName;
     this._lastName = lastName;
