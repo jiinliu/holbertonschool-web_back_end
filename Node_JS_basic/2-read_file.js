@@ -15,9 +15,7 @@ function countStudents(path) {
     return;
   }
 
-  const rows = lines.slice(1).map((line) =>
-    line.split(',').map((s) => s.trim())
-  );
+  const rows = lines.slice(1).map((line) => line.split(',').map((s) => s.trim()));
 
   console.log(`Number of students: ${rows.length}`);
 
