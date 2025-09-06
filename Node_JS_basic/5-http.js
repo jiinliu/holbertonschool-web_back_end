@@ -14,7 +14,7 @@ const app = http.createServer((req, res) => {
   }
 
   res.statusCode = 404;
-  res.end('Not found');
+  return res.end('Not found');
 });
 
 app.listen(1245);
